@@ -11,7 +11,7 @@ const port = 8000;
 
 app.use(bodyParser.json());
  
-const API_KEY = process.env.PLACES_API;; // Replace 'YOUR_API_KEY' with your actual API key
+const API_KEY = process.env.PLACES_API; // Replace 'YOUR_API_KEY' with your actual API key
 const mlkey=process.env.GPT_API;
 
 // Initialize the OpenAI client with your API key
